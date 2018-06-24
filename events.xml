@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="admin_user_save_before">
+        <observer name="mobiadminusersavebefore" instance="Mobicommerce\Area\Observer\Saveuser"/>
+    </event>
+    <event name="catalog_product_save_">
+        <observer name="test_name" instance="Mobicommerce\Area\Observer\Productsaveafter" />
+    </event>
+</config>
